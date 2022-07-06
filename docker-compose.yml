@@ -1,0 +1,16 @@
+version: "3.3"
+services:
+  client: 
+    image: client
+    build: ./client/Dockerfile
+    ports:
+      - 8080:8080
+    expose:
+      - 8080
+  server:
+    image: server
+    build: ./server/Dockerfile
+    ports: 
+      - 3000:3000
+    expose:
+      - 3000

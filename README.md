@@ -4,7 +4,7 @@
 
 ### [SERVER](https://github.com/poterasu1996/doraly-server)
 
-* Clone the two projects.\
+* Clone the two projects.
 * Run the following command to build the docker images and run the servers:
 
 ```console
